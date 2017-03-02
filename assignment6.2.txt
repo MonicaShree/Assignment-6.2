@@ -1,0 +1,96 @@
+Give brief answers to the questions below:
+
+
+
+ 1. Why MapReduce program is needed in Pig Programming?
+
+  * It is needed when the  job requires optimization at the  stage of processing .
+
+  * It is required when  the job has usage of cross products,distributed cache and joins.
+
+  * Hadoop developers use MapReduce when good amount of testability is required for combining  large sets of data .
+   
+
+
+2. What are advantages of Pig over MapReduce?
+
+  The advantages of Pig over MapReduce are :
+  
+  * Pig has a decrease in development time . 
+  
+  * Learning is easy . Anyone with no knowledge of vanilla map-reduce or SQL can write map-reduce jobs .
+
+  * Pig is procedural and not declarative . So, it is easier to follow the commands . It is much like an english language .
+  
+  * It is a high level language while map reduce is low level .
+
+  * Pig uses multi-query reducing length of code .
+
+  * No need of compilation in Pig .
+
+
+
+3. What is Pig engine and what is its importance?
+  
+  * Pig engine acts as interpreter between Pig latin script and map reduce Jobs .
+  
+  * It creates an environment to execute Pig scripts into series of map reduce jobs in parallel .
+
+  * Pig can handle very large amount of data sets as it open to substantial parallelisation . 
+
+
+4. What are the modes of Pig execution?
+
+  The main modes in Pig Execution are :
+ 
+  -Local Mode 
+  -MapReduce Mode 
+
+ Local Mode :
+ * All files are installed and run from local host and file system .
+
+ * This is used for testing .
+
+ MapReduce Mode :
+ * It is where we load or process data that exists in HDFS .
+
+ * Whenecer we execute Pig Latin statements to process data MapReduce job is invoked in back end . 
+
+
+5. What is Grunt Shell in Pig?
+
+  * The grunt shell of Apache Pig is used to write Pig latin scripts .
+
+  * The grunt shell provides set of utility commands such as clear , help , quit , set and history .
+
+  
+6. What are the features of Pig Latin language?
+
+  * With Pig latin , programmers can perform Map Reduce tasks without complex codes in java . 
+ 
+  * Pig latin is SQL like language and is easy to learn . 
+
+   * The key properties of Pig Latin are - 
+
+  - Ease of programming 
+
+  - Optimization oppurtunities 
+
+  _ Extensibility 
+
+
+7. Is Pig Latin commands case sensitive?
+
+ * The name of relations and fields are case sensitive .
+
+ * The function names are case sensitive .
+ 
+ * But , the name of parameters and pig latin keywords are case insensitive .
+
+
+8. What is a data flow language? 
+
+ * Data flow programming models a program as directed graph of data flow between operations . 
+
+ * In data flow you have a stream of data which is passed from instruction to instruction to be processed .
+
